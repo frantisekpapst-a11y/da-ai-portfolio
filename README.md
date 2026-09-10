@@ -516,67 +516,14 @@ GitHub
 Markdown
 ```
 
-Používané AI nástroje zahrnují například:
+Používané AI nástroje zahrnují především:
 
 ```text
 ChatGPT
 Microsoft Copilot
 Perplexity
 Claude
-Gemini
-Gamma
-Grain
-Text Blaze
-Zapier
-Midjourney
 ```
-
----
-
-# 🔄 AI v analytickém workflow
-
-AI zde funguje jako podpůrná vrstva nad běžným analytickým procesem.
-
-Typický přístup:
-
-```text
-Business Question
-→ Data / Context
-→ SQL / Excel / Python / Power BI
-→ AI Assistance
-→ Validation
-→ Interpretation
-→ Reporting
-→ Human Decision
-```
-
-Příklady použití:
-
-```text
-SQL
-→ návrh / review dotazu
-
-Python
-→ review analytického postupu
-→ interpretace výsledků
-
-Excel
-→ návrh vzorce / dashboardu
-
-Power BI
-→ DAX / model / dashboard review
-
-Reporting
-→ Executive Summary
-→ Insight Generation
-→ Data Storytelling
-
-AI
-→ review vlastního AI výstupu
-→ kontrola promptu
-```
-
-Každý AI výstup musí být posuzován podle konkrétního kontextu a významu rozhodnutí, které na něm může být založeno.
 
 ---
 
@@ -612,20 +559,3 @@ Důležité principy:
 - AI doporučení je vhodné oddělovat od doložených zjištění.
 - Business kontext je stejně důležitý jako technická správnost.
 - AI nenahrazuje kritické myšlení ani odpovědnost člověka.
-
----
-
-# 📈 Další rozvoj
-
-Portfolio lze dále rozšiřovat především prostřednictvím praktických AI-assisted projektů.
-
-Navazující oblasti zahrnují například:
-
-- AI agentní workflow,
-- AI-assisted data quality,
-- automatizované review analytických výstupů,
-- AI + SQL / Python / Power BI workflow,
-- multimodální analytické scénáře,
-- další validaci promptů napříč různými modely,
-- praktické business use cases,
-- integraci AI do end-to-end analytických workflow.
