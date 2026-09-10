@@ -1,543 +1,631 @@
 # 🤖 Data Analytics AI Portfolio
 
-Repozitář dokumentující moje studium umělé inteligence a její praktické využití v datové analytice, Business Intelligence, automatizaci, produktivitě a AI-assisted workflow.
+Portfolio zaměřené na **praktické využití generativní AI v datové analytice, Business Intelligence, reportingu, prompt engineeringu a AI-assisted workflow**.
 
-Obsah vznikal především v návaznosti na dva kurzy AI od **ITnetwork**:
+Repozitář obsahuje praktické case studies, znovupoužitelné prompty, testovací scénáře, playbooky a referenční materiály zaměřené na využití AI od formulace zadání a analýzy dat až po validaci výstupů, reporting a návrh analytických asistentů.
 
-1. **Základy umělé inteligence** - výstupy jsou označeny jako **Basic**
-2. **AI – Mistrovství produktivity s umělou inteligencí** - výstupy jsou označeny jako **Advanced**.
+Hlavní oblasti:
 
-Získané znalosti jsem průběžně rozšiřoval prostřednictvím vlastních case studies, praktických příkladů, analytických workflow a knihovny znovupoužitelných promptů.
-
-Doplňkovou část tvoří materiály z dalšího kurzu zaměřeného na praktické používání AI nástrojů a základů vibe codingu.
-
----
-
-# 🎯 Cíl projektu
-
-Cílem je:
-
-- dokumentovat dlouhodobý rozvoj v oblasti AI,
-- převádět získané znalosti do praktických výstupů,
-- vytvářet vlastní AI case studies,
-- budovat znovupoužitelná AI workflow,
-- rozvíjet schopnost kriticky hodnotit výstupy generativní AI,
-- propojovat AI s datovou analytikou a Business Intelligence.
+- AI-assisted Data Analytics,
+- Prompt Engineering,
+- AI Output Validation,
+- Business Intelligence,
+- Reporting a Data Storytelling,
+- AI Workflow Design,
+- AI-assisted productivity,
+- analytické asistenty a agentní frameworky,
+- AI risk awareness,
+- human-in-the-loop validation,
+- praktické AI case studies.
 
 ---
 
-# 📁 Struktura repozitáře
+# 📂 Struktura repozitáře
 
 ```text
 da-ai-portfolio/
 │
 ├── ai-case-studies/
 │   ├── ai-case-studies-basic/
+│   │   ├── case-study-1/
+│   │   └── case-study-2.md
+│   │
 │   └── ai-case-studies-advanced/
+│       ├── case-study-1/
+│       ├── case-study-2/
+│       ├── case-study-3/
+│       └── case-study-4/
 │
 ├── ai-certificates/
+│
 ├── ai-cheatsheets/
+│   ├── ai-cheatsheet-advanced.md
+│   └── ai-cheatsheet-prompt-engineering.md
 │
 ├── ai-examples/
 │   ├── ai-examples-advanced/
+│   │   ├── ai/
+│   │   ├── analytics/
+│   │   ├── career/
+│   │   ├── excel/
+│   │   ├── power-bi/
+│   │   ├── reporting/
+│   │   └── sql/
 │   └── ai-examples-basics.md
 │
 ├── ai-mini-tests/
+│   ├── ai-advanced.md
+│   └── ai-basics.md
+│
 ├── ai-other-courses/
+│
 ├── ai-playbooks/
+│   ├── ai-playbook-advanced.md
+│   └── ai-playbook-basics.md
+│
 ├── ai-prompt-library/
-├── ai-resources/
+│   ├── ai/
+│   ├── analytics/
+│   ├── career/
+│   ├── excel/
+│   ├── power-bi/
+│   ├── reporting/
+│   ├── sql/
+│   └── readme.md
+│
 └── README.md
 ```
 
 ---
 
-# 🧠 Hlavní oblasti rozvoje
+# 🎯 Zaměření portfolia
 
-Repozitář je zaměřen především na:
-
-- Prompt Engineering,
-- AI-assisted Data Analytics,
-- Business Intelligence,
-- AI Productivity,
-- AI Workflow Design,
-- automatizaci,
-- validaci AI výstupů,
-- AI Governance,
-- AI Risk Management,
-- dokumentaci AI řešení,
-- kritické myšlení,
-- Vibe Coding.
-
----
-
-# Prezentované dovednosti
-
-Prostřednictvím jednotlivých částí repozitáře jsou prezentovány zejména tyto dovednosti:
-
-- návrh strukturovaných promptů,
-- iterace a optimalizace promptů,
-- kritické hodnocení AI výstupů,
-- převod business problému do AI workflow,
-- práce s analytickým kontextem,
-- práce s datovou kvalitou,
-- reporting a data storytelling,
-- dokumentace v Markdownu,
-- identifikace rizik a omezení,
-- návrh AI asistentů a agentních frameworků.
-
----
-
-# Hlavní vzdělávání — ITnetwork
-
-Většina obsahu repozitáře vznikla během studia dvou kurzů od **ITnetwork** (Základy umělé inteligence a Mistrovství produktivity s umělou inteligencí).
-
-Na oba kurzy navazují:
-
-- základní a pokročilé case studies,
-- praktické ukázky,
-- prompt library,
-- dokumentace AI workflow,
-- vlastní testovací scénáře.
-
-Certifikáty jsou uloženy ve složce [`ai-certificates`](./ai-certificates).
-
----
-
-## Základy umělé inteligence — Basics
-
-Kurz **Základy umělé inteligence** poskytl teoretický i praktický základ pro práci s generativní AI.
-
-### Hlavní oblasti kurzu
-
-Kurz byl zaměřen zejména na:
-
-- úvod do umělé inteligence,
-- tvorbu efektivních promptů,
-- profesionální prompt engineering,
-- pokročilejší techniky promptování,
-- grafické prompty,
-- speciální modifikace grafických promptů,
-- využití AI pro zvýšení produktivity,
-- praktické použití AI,
-- tvorbu chatbotů a vlastních modelů GPT,
-- bezpečné používání AI,
-- základy strojového učení,
-- klíčové koncepty velkých jazykových modelů,
-- princip fungování a architekturu LLM,
-- datové korpusy,
-- etické otázky,
-- halucinace AI modelů.
-
-### Výstupy v repozitáři
-
-Na tento kurz navazují především části označené jako `basic`, například:
-
-- [`ai-case-studies-basic`](./ai-case-studies/ai-case-studies-basic),
-- [`ai-examples-basics.md`](./ai-examples/ai-examples-basics.md),
-- AI playbook základy,
-- mini testy základy,
-- cheatsheet základy.
-
----
-
-## AI – Mistrovství produktivity s umělou inteligencí — Advanced
-
-Kurz **AI – Mistrovství produktivity s umělou inteligencí** navázal na základní znalosti a zaměřil se především na praktické zapojení AI do pracovního i osobního života.
-
-Pro účely tohoto repozitáře je obsah tohoto kurzu označen jako **Advanced**.
-
-### Hlavní oblasti kurzu
-
-Kurz byl zaměřen na praktické využití AI v následujících oblastech:
-
-#### Práce s obsahem
-
-- psaní textů,
-- sumarizace,
-- zjednodušování obsahu,
-- stylistické úpravy,
-- kontrola a přepracování textových výstupů.
-
-#### Data a analytika
-
-- zpracování dat,
-- analýza dat,
-- tvorba vizualizací,
-- interpretace výstupů,
-- práce s AI jako analytickým asistentem.
-
-#### Pracovní prostředí
-
-- organizace schůzek,
-- tvorba agendy,
-- zpracování e-mailů,
-- příprava zápisů,
-- řízení úkolů,
-- týmová spolupráce.
-
-#### Specializované obory
-
-- marketing,
-- SEO,
-- vývoj softwaru,
-- grafický design.
-
-#### AI jako osobní poradce
-
-- zdraví,
-- finance,
-- právo,
-- technologie,
-- cestování,
-- zábava.
-
-#### Vzdělávání a kariéra
-
-- produktivita při studiu,
-- kariérní rozvoj,
-- osobní rozvoj,
-- využití AI při hledání zaměstnání.
-
-#### AI agenti
-
-- principy AI agentů,
-- interakce s agentem v ChatGPT,
-- návrh vícekrokových workflow.
-
-### Výstupy v repozitáři
-
-Na tento kurz navazují především části označené jako `advanced`, například:
-
-- [`ai-case-studies-advanced`](./ai-case-studies/ai-case-studies-advanced),
-- [`ai-examples-advanced`](./ai-examples/ai-examples-advanced),
-- AI playbook pokročilý,
-- mini testy pokročilý,
-- cheatsheet pokročilý,
-- [`ai-prompt-library`](./ai-prompt-library).
-
----
-
-# Další absolvované kurzy
-
-Materiály z dalších dvou kurzů jsou odděleny ve složce [`ai-other-courses`](./ai-other-courses).
-
-## AI Starter Pack
-
-Kurz byl zaměřen na praktické využití AI nástrojů a produktivitu.
-
-Probírané oblasti zahrnovaly například:
-
-- ChatGPT,
-- Claude,
-- Gemini,
-- prompt engineering,
-- Custom GPTs,
-- Custom Instructions,
-- Perplexity AI,
-- Zapier,
-- Grain,
-- Gamma,
-- Text Blaze,
-- voice-to-text workflow,
-- Midjourney,
-- AI avatary,
-- AI hudbu,
-- analýzu akcií pomocí AI,
-- analýzu videí pomocí AI.
-
-## Základy Vibe Codingu
-
-Kurz byl zaměřen na využití AI při tvorbě jednoduchých aplikací a práci s AI generovaným kódem.
-
-Probírané oblasti zahrnovaly:
-
-- principy vibe codingu,
-- AI-assisted development,
-- prompting pro programování,
-- iterativní vývoj,
-- ladění AI generovaného kódu,
-- kontrolu chyb,
-- základní doporučené postupy.
-
----
-
-# AI Prompt Library
-
-[`AI Prompt Library`](./ai-prompt-library) je samostatný projekt uvnitř tohoto repozitáře.
-
-Jde o kurátorovanou knihovnu znovupoužitelných promptů, které nejsou koncipovány jako jednorázové dotazy. Každý představuje strukturované workflow určené pro opakované použití a přizpůsobení konkrétnímu zadání.
-
-Prompty byly vytvořeny v **ChatGPT 5.6** a v tomto modelu také testovány, iterovány a postupně zpřesňovány na realistických scénářích.
-
-Další iterace jsou vhodné především na základě praktického používání.
-
-Při využití jiných generativních modelů AI (například **Gemini**, **Claude** nebo **MS Copilot**), je vhodné prompty znovu otestovat, protože jednotlivé modely mohou instrukce interpretovat odlišně.
-
-Jednotlivé prompty se zaměřují např. na:
-
-- revizi AI výstupů,
-- kontrolu a optimalizaci promptů,
-- analýzu business požadavků,
-- validaci a čištění dat,
-- EDA,
-- trendovou analýzu,
-- zákaznickou segmentaci,
-- Root Cause Analysis,
-- statistickou analýzu,
-- návrh KPI,
-- doporučení datasetů,
-- review portfolio projektů,
-- práci s Excelem,
-- Power Query,
-- datové modelování,
-- DAX,
-- návrh a review Power BI dashboardů,
-- Executive Summary,
-- generování insightů,
-- datové vizualizace,
-- data storytelling,
-- SQL dotazy a databázovou strukturu.
-
-Knihovna promptů je přímo propojena se složkou:
-
-[`ai-examples/ai-examples-advanced`](./ai-examples/ai-examples-advanced)
-
-Tato složka kopíruje tematickou strukturu knihovny. 
-
-Každý příklad obsahuje:
-
-1. finální verzi promptu po předchozích iteracích,
-2. realistické testovací zadání,
-3. výsledný výstup generovaný AI.
-
-Příklady dokumentují praktické použití promptů a jeden z možných výsledků jejich použití.
-
----
-
-# 📊 Portfolio AI Case Studies
-
-Případové studie jsou rozděleny do dvou částí:
-
-- [`ai-case-studies-basic`](./ai-case-studies/ai-case-studies-basic),
-- [`ai-case-studies-advanced`](./ai-case-studies/ai-case-studies-advanced).
-
-Jsou inspirované kurzy ITnetvwork. Nejedná se tedy o case studies nebo příklady řešené přímo v rámci těchto kurzů, které jsem řešil rovněž, ale nemohou zde být z důvodu licenčních ustanovení.
-
----
-
-# Basic Case Studies
-
-## 📘 Case Study 01 — Personalized GPT Mentor for Data Analytics
-
-Personalizovaný GPT mentor zaměřený na dlouhodobé studium datové analytiky a Business Intelligence.
-
-Model:
-
-- komunikuje česky,
-- přizpůsobuje obtížnost,
-- využívá metodu Learning by Doing,
-- zadává praktické úkoly,
-- poskytuje zpětnou vazbu,
-- vytváří mini testy,
-- propojuje Excel, SQL, Power BI, DAX, Python, statistiku a další analytické oblasti,
-- podporuje tvorbu GitHub portfolia.
-
-Projekt reaguje na časté problémy samostudia, například nejasnou studijní cestu, nedostatek praxe a chybějící zpětnou vazbu.
-
-➡️ [`Case Study 01`](./ai-case-studies/ai-case-studies-basic/case-study-1)
-
----
-
-## 📘 Case Study 02 — AI Sentiment Analysis for E-shop
-
-Návrh využití AI pro automatizovanou analýzu přibližně 50 000 zákaznických recenzí.
-
-Řešení zahrnuje:
-
-- získání a přípravu dat,
-- odstranění duplicit a osobních údajů,
-- klasifikaci sentimentu,
-- identifikaci hlavních témat,
-- validaci AI na manuálně hodnoceném vzorku,
-- reporting a návrh KPI,
-- zapojení analytika, Customer Care a Marketingu.
-
-Projekt pracuje s kategoriemi `Positive`, `Negative`, `Neutral` a `Mixed` a zdůrazňuje nutnost lidské kontroly a validace výsledků.
-
-➡️ [`Case Study 02`](./ai-case-studies/ai-case-studies-basic/case-study-2.md)
-
----
-
-# Advanced Case Studies
-
-## 📘 Case Study 01 — AI-Assisted Executive Summary for Quarterly Sales Analysis
-
-Případová studie ukazuje využití AI při převodu technického analytického reportu do stručného Executive Summary pro management.
-
-Projekt dokumentuje:
-
-- první návrh vytvořený AI,
-- kontrolu chyb a nepřesností,
-- několik iterací promptu,
-- oddělení doložených zjištění od AI doporučení,
-- vytvoření finálního manažerského souhrnu.
-
-Hlavním poznatkem je, že AI může tvorbu reportingu výrazně urychlit, ale výstup musí projít odbornou kontrolou analytika.
-
-➡️ [`Case Study 01`](./ai-case-studies/ai-case-studies-advanced/case-study-1)
-
----
-
-## 📘 Case Study 02 — AI-Powered Office Workflow Assistant
-
-Případová studie demonstruje využití AI při běžných administrativních činnostech analytického týmu.
-
-Workflow zahrnuje:
-
-- prioritizaci e-mailů,
-- přípravu agendy,
-- vytvoření zápisu ze schůzky,
-- generování akčních úkolů,
-- přípravu follow-up e-mailu,
-- finální kontrolu člověkem.
-
-Projekt ukazuje potenciál AI pro úsporu času, standardizaci dokumentace a lepší organizaci práce.
-
-➡️ [`Case Study 02`](./ai-case-studies/ai-case-studies-advanced/case-study-2)
-
----
-
-## 📘 Case Study 03 — AI Personal Advisor Framework: Health
-
-Vzdělávací framework pro bezpečné a odpovědné využívání AI při práci se zdravotními informacemi.
-
-Framework je založen na postupu:
+Repozitář demonstruje praktické využití AI v analytickém workflow:
 
 ```text
-Problem
-   ↓
-Context
-   ↓
-Prompt
-   ↓
-AI Output
-   ↓
-Verification
-   ↓
-Human Decision
+Business Question
+→ Context
+→ Prompt / AI Workflow
+→ AI Output
+→ Validation
+→ Analysis / Reporting
+→ Human Review
+→ Business Decision
 ```
 
-Projekt se zaměřuje na:
+Důraz je kladen nejen na samotné použití generativní AI, ale také na:
 
-- kvalitní formulaci zdravotních dotazů,
-- ochranu citlivých údajů,
-- rozlišování faktů, interpretací a nejistot,
-- ověřování důležitých informací,
-- správné určení hranic použití AI.
+- správnou formulaci zadání,
+- práci s business a datovým kontextem,
+- rozlišování mezi fakty, interpretací a doporučením,
+- kontrolu halucinací a nepodložených závěrů,
+- validaci číselných a analytických výstupů,
+- transparentní práci s nejistotou,
+- opakovatelnost AI workflow,
+- lidskou kontrolu před použitím výsledků.
 
-Framework neposkytuje diagnózu ani léčbu a nenahrazuje zdravotnického odborníka.
-
-➡️ [`Case Study 03`](./ai-case-studies/ai-case-studies-advanced/case-study-3)
+AI zde není používána jako náhrada analytického úsudku, ale jako nástroj pro podporu, zrychlení a standardizaci analytické práce.
 
 ---
 
-## 📘 Case Study 04 — AI Data Analyst Agent
+# 📁 Case Studies
 
-Platformně nezávislý framework pro strukturovanou analýzu business dat.
+Case studies jsou prezentovány **od nejpokročilejších a nejreprezentativnějších projektů po jednodušší AI scénáře**.
+
+Důraz je kladen na praktické použití AI v datové analytice, reportingu, workflow designu, validaci výstupů a návrhu AI-assisted řešení.
+
+---
+
+## Advanced Case Study 04 — AI Data Analyst Agent
+
+Nejkomplexnější AI case study v repozitáři zaměřená na návrh platformně nezávislého analytického AI agenta.
 
 Projekt obsahuje:
 
 - specifikaci analytického AI agenta,
 - standardizované analytické workflow,
-- pravidla pro kvalitu dat,
-- principy transparentnosti, reprodukovatelnosti a auditovatelnosti,
-- referenční případovou studii trhu práce Data Analyst v České republice.
+- pravidla pro data quality,
+- validation framework,
+- transparentnost a reprodukovatelnost,
+- auditovatelnost analytického procesu,
+- referenční analytický scénář.
 
 Agent postupuje podle workflow:
 
 ```text
 Business Understanding
-        ↓
-Data Collection
-        ↓
-Data Quality Assessment
-        ↓
-Data Cleaning
-        ↓
-Analysis
-        ↓
-Validation
-        ↓
-Reporting
+→ Data Collection
+→ Data Quality Assessment
+→ Data Cleaning
+→ Analysis
+→ Validation
+→ Reporting
 ```
 
-Projekt není hotovým softwarem. Představuje návrh profesionálního AI-assisted analytického postupu, který lze využít jako základ pro vlastní analytické asistenty nebo agenty.
+Projekt představuje návrh profesionálního AI-assisted analytického postupu, který lze využít jako základ pro analytické asistenty nebo agentní workflow.
 
-➡️ [`Case Study 04`](./ai-case-studies/ai-case-studies-advanced/case-study-4)
-
----
-
-# Používané AI nástroje
-
-## Velké jazykové modely
-
-- ChatGPT,
-- Claude,
-- Gemini,
-- MS Copilot.
-
-## AI research
-
-- Perplexity.
-
-## Produktivita a dokumentace
-
-- Gamma,
-- Grain,
-- Text Blaze.
-
-## Automatizace
-
-- Zapier.
-
-## Grafika
-
-- Midjourney.
-
-## GitHub
-
-Použité nástroje se v jednotlivých částech repozitáře liší.
+➡️ [Otevřít Advanced Case Study 04](ai-case-studies/ai-case-studies-advanced/case-study-4/)
 
 ---
 
-# Související repozitáře
+## Advanced Case Study 03 — AI Personal Advisor Framework: Health
 
-## Data Analytics Learning Journey
+Framework zaměřený na odpovědné využívání AI při práci s citlivými a odbornými informacemi.
 
-https://github.com/frantisekpapst-a11y/data-analytics-learning-journey
+Použitý přístup:
 
-Repozitář zaměřený na praktické studium datové analytiky, Excelu, SQL, Power Query, business analýzy, statistiky a analytických workflow.
+```text
+Problem
+→ Context
+→ Prompt
+→ AI Output
+→ Verification
+→ Human Decision
+```
 
-## Power BI Learning Journey
+Projekt se zaměřuje na:
 
-https://github.com/frantisekpapst-a11y/power-bi-learning-journey
+- kvalitní formulaci dotazu,
+- ochranu citlivých údajů,
+- oddělení faktů a interpretací,
+- práci s nejistotou,
+- ověřování důležitých informací,
+- správné vymezení hranic použití AI.
 
-Repozitář zaměřený na Power BI, Power Query, datové modelování, DAX, reporting, dashboard design a AI-assisted analytics.
+➡️ [Otevřít Advanced Case Study 03](ai-case-studies/ai-case-studies-advanced/case-study-3/)
 
 ---
 
-# Lessons 🎯 Learned
+## Advanced Case Study 02 — AI-Powered Office Workflow Assistant
 
-Během studia a tvorby jednotlivých výstupů se opakovaně potvrdilo několik principů:
+Case study zaměřená na využití AI v každodenním pracovním workflow analytického týmu.
 
-- AI může výrazně urychlit analytickou i administrativní práci.
-- Kvalita výstupu silně závisí na kvalitě vstupu a formulaci promptu.
-- První výstup AI není vhodné automaticky považovat za finální.
-- AI nenahrazuje kritické myšlení ani odborné znalosti.
-- Výstupy je nutné ověřovat, zejména při práci s čísly, citacemi, zdravím, právem nebo důležitými business rozhodnutími.
-- AI může vytvářet přesvědčivě formulované, ale přesto nesprávné informace (může tzv. halucinovat).
-- Business kontext je stejně důležitý jako samotná data.
-- Iterativní práce zpravidla vede ke kvalitnějším a přesnějším výstupům.
-- AI je nejefektivnější jako asistent a podpora rozhodování, nikoli jako náhrada člověka.
-- Datový analytik musí umět AI nejen používat, ale také kontrolovat, validovat a transparentně dokumentovat její výstupy.
+Workflow zahrnuje:
+
+- prioritizaci e-mailů,
+- přípravu agendy,
+- zpracování zápisu ze schůzky,
+- generování akčních úkolů,
+- follow-up komunikaci,
+- finální lidskou kontrolu.
+
+Projekt demonstruje využití AI pro standardizaci administrativních činností a podporu produktivity.
+
+➡️ [Otevřít Advanced Case Study 02](ai-case-studies/ai-case-studies-advanced/case-study-2/)
+
+---
+
+## Advanced Case Study 01 — AI-Assisted Executive Summary
+
+Case study zaměřená na převod technického analytického reportu do stručného Executive Summary pro management.
+
+Projekt dokumentuje:
+
+- první AI návrh,
+- kontrolu chyb a nepřesností,
+- iterace promptu,
+- oddělení doložených zjištění od AI doporučení,
+- vytvoření finálního manažerského souhrnu.
+
+Hlavní princip:
+
+```text
+AI draft
+→ analyst review
+→ correction
+→ validated management output
+```
+
+➡️ [Otevřít Advanced Case Study 01](ai-case-studies/ai-case-studies-advanced/case-study-1/)
+
+---
+
+## Basic Case Study 02 — AI Sentiment Analysis for E-shop
+
+Návrh AI-assisted analýzy přibližně 50 000 zákaznických recenzí.
+
+Řešení zahrnuje:
+
+- získání a přípravu dat,
+- odstranění duplicit a osobních údajů,
+- sentiment classification,
+- identifikaci hlavních témat,
+- validaci na manuálně hodnoceném vzorku,
+- návrh KPI,
+- reporting,
+- zapojení analytika, Customer Care a Marketingu.
+
+Projekt zdůrazňuje význam lidské kontroly a validace AI klasifikace.
+
+➡️ [Otevřít Basic Case Study 02](ai-case-studies/ai-case-studies-basic/case-study-2.md)
+
+---
+
+## Basic Case Study 01 — Personalized GPT Mentor for Data Analytics
+
+Návrh personalizovaného GPT mentora zaměřeného na dlouhodobou podporu studia datové analytiky a Business Intelligence.
+
+Framework zahrnuje:
+
+- adaptivní komunikaci,
+- Learning by Doing,
+- praktické úkoly,
+- zpětnou vazbu,
+- mini testy,
+- propojení analytických technologií,
+- podporu tvorby GitHub portfolia.
+
+Projekt ukazuje návrh specializovaného AI asistenta s jasně definovanou rolí, způsobem práce a cílovou oblastí.
+
+➡️ [Otevřít Basic Case Study 01](ai-case-studies/ai-case-studies-basic/case-study-1/)
+
+---
+
+# 🧩 AI Skills
+
+Portfolio pokrývá praktickou práci s generativní AI od návrhu promptu až po validaci analytického výstupu.
+
+Hlavní oblasti:
+
+- Prompt Engineering,
+- structured prompting,
+- prompt iteration a optimization,
+- AI Output Review,
+- AI-assisted EDA,
+- AI-assisted reporting,
+- Executive Summary generation,
+- data validation assistance,
+- data cleaning assistance,
+- trend analysis,
+- customer segmentation,
+- Root Cause Analysis,
+- statistical analysis support,
+- KPI design,
+- Power BI assistance,
+- SQL assistance,
+- Excel assistance,
+- AI workflow design,
+- agent framework design,
+- human-in-the-loop validation,
+- risk awareness a hallucination control.
+
+Důraz je kladen na:
+
+```text
+Context
+→ Structured Prompt
+→ AI Output
+→ Validation
+→ Human Review
+→ Business Use
+```
+
+Detailní prompty, příklady a praktické principy jsou součástí prompt library, examples, playbooks a case studies.
+
+---
+
+# 🧠 AI Prompt Library
+
+[`AI Prompt Library`](./ai-prompt-library/) představuje jednu z hlavních částí portfolia.
+
+Nejde o sbírku jednorázových dotazů, ale o knihovnu **znovupoužitelných, strukturovaných promptů** navržených pro praktické analytické a business scénáře.
+
+Prompty jsou rozděleny do oblastí:
+
+```text
+AI
+Analytics
+Career
+Excel
+Power BI
+Reporting
+SQL
+```
+
+## AI
+
+- AI Output Reviewer
+- Prompt Reviewer & Optimizer
+
+## Analytics
+
+- Business Requirements Analyzer
+- Data Validation Assistant
+- Data Cleaning Assistant
+- Exploratory Data Analysis Assistant
+- Trend Analysis Assistant
+- Customer Segmentation Assistant
+- Root Cause Analysis Assistant
+- Statistical Data Analysis Assistant
+- KPI Designer
+
+## Career
+
+- Learning Project Generator
+- Dataset Recommendation Assistant
+- GitHub Portfolio Reviewer
+- Portfolio Project Reviewer
+- Resume Assistant
+- Cover Letter Assistant
+- Interview Assistant
+
+## Excel
+
+- KPI Dashboard Designer
+- Formula Assistant
+- Workbook Reviewer
+
+## Power BI
+
+- Query Transformation Assistant
+- Power Query M Assistant
+- Power Query Reviewer
+- Data Model Reviewer
+- DAX Assistant
+- DAX Reviewer
+- Executive Dashboard Designer
+- Dashboard Reviewer
+- Performance Reviewer
+
+## Reporting
+
+- Executive Summary Generator
+- Insight Generator
+- Data Visualization Advisor
+- Data Storytelling Assistant
+
+## SQL
+
+- SQL Query Assistant
+- SQL Query Reviewer
+- Database Structure Analyzer
+
+Každý prompt je navržen jako samostatný reusable workflow s jasně vymezenou rolí a účelem.
+
+➡️ [Otevřít AI Prompt Library](ai-prompt-library/)
+
+---
+
+# 📂 Examples & Prompt Validation
+
+## ai-examples-advanced
+
+Struktura examples kopíruje hlavní oblasti prompt library.
+
+Každý příklad obsahuje:
+
+```text
+finální prompt
+→ realistické zadání
+→ AI výstup
+```
+
+Cílem je ukázat praktické použití jednotlivých promptů a současně vytvořit testovací základ pro jejich další iterace.
+
+Oblasti:
+
+- AI,
+- Analytics,
+- Career,
+- Excel,
+- Power BI,
+- Reporting,
+- SQL.
+
+➡️ [AI Advanced Examples](ai-examples/ai-examples-advanced/)
+
+---
+
+## ai-examples-basics.md
+
+Základní praktické ukázky použití generativní AI.
+
+➡️ [AI Basic Examples](ai-examples/ai-examples-basics.md)
+
+---
+
+# 📘 AI Playbooks
+
+Playbooky shrnují praktické principy používání AI v opakovatelných scénářích.
+
+Repozitář obsahuje:
+
+- [AI Playbook — Basics](ai-playbooks/ai-playbook-basics.md)
+- [AI Playbook — Advanced](ai-playbooks/ai-playbook-advanced.md)
+
+Playbooky doplňují case studies a prompt library o obecnější praktické postupy.
+
+---
+
+# 📚 Knowledge Base
+
+## ai-cheatsheets
+
+Strukturované reference zaměřené na AI a prompt engineering.
+
+Obsahují například:
+
+- principy generativní AI,
+- prompt engineering,
+- strukturované zadávání úloh,
+- práci s kontextem,
+- validaci AI výstupů,
+- rizika a omezení,
+- AI-assisted workflow.
+
+➡️ [AI Cheatsheets](ai-cheatsheets/)
+
+---
+
+## ai-mini-tests
+
+Sada znalostních testů zaměřených na základní i pokročilejší principy práce s AI.
+
+➡️ [AI Mini Tests](ai-mini-tests/)
+
+---
+
+## ai-other-courses
+
+Doplňkové materiály z dalších kurzů zaměřených na:
+
+- praktické používání AI nástrojů,
+- produktivitu,
+- AI-assisted development,
+- základy vibe codingu.
+
+➡️ [Other AI Courses](ai-other-courses/)
+
+---
+
+# 📜 Certificates
+
+Repozitář obsahuje certifikáty související s absolvovanými AI kurzy.
+
+Složka:
+
+➡️ [AI Certificates](ai-certificates/)
+
+Obsah zahrnuje certifikáty z oblastí:
+
+- základy umělé inteligence,
+- pokročilejší využití AI pro produktivitu,
+- praktické AI nástroje,
+- základy vibe codingu.
+
+---
+
+# 🛠 Technologie a koncepty
+
+```text
+Generative AI
+Large Language Models
+Prompt Engineering
+AI-Assisted Analytics
+AI Output Validation
+AI Workflow Design
+AI Agents
+Human-in-the-Loop
+Business Intelligence
+Data Analytics
+Reporting
+Data Storytelling
+AI Risk Awareness
+Git
+GitHub
+Markdown
+```
+
+Používané AI nástroje zahrnují například:
+
+```text
+ChatGPT
+Microsoft Copilot
+Perplexity
+Claude
+Gemini
+Gamma
+Grain
+Text Blaze
+Zapier
+Midjourney
+```
+
+---
+
+# 🔄 AI v analytickém workflow
+
+AI zde funguje jako podpůrná vrstva nad běžným analytickým procesem.
+
+Typický přístup:
+
+```text
+Business Question
+→ Data / Context
+→ SQL / Excel / Python / Power BI
+→ AI Assistance
+→ Validation
+→ Interpretation
+→ Reporting
+→ Human Decision
+```
+
+Příklady použití:
+
+```text
+SQL
+→ návrh / review dotazu
+
+Python
+→ review analytického postupu
+→ interpretace výsledků
+
+Excel
+→ návrh vzorce / dashboardu
+
+Power BI
+→ DAX / model / dashboard review
+
+Reporting
+→ Executive Summary
+→ Insight Generation
+→ Data Storytelling
+
+AI
+→ review vlastního AI výstupu
+→ kontrola promptu
+```
+
+Každý AI výstup musí být posuzován podle konkrétního kontextu a významu rozhodnutí, které na něm může být založeno.
+
+---
+
+# 💡 AI přístup
+
+Portfolio vychází z principu:
+
+```text
+AI Output
+≠
+Verified Result
+```
+
+Praktický workflow:
+
+```text
+dobře definovaný problém
+→ kvalitní kontext
+→ strukturovaný prompt
+→ AI návrh
+→ kontrola faktů a logiky
+→ validace
+→ lidské rozhodnutí
+```
+
+Důležité principy:
+
+- AI může výrazně urychlit analytickou a administrativní práci.
+- Kvalita výstupu závisí na kvalitě vstupu a kontextu.
+- První AI výstup není automaticky finální.
+- AI může vytvářet přesvědčivě formulované, ale nesprávné informace.
+- Číselné, analytické a odborné výstupy je potřeba ověřovat.
+- AI doporučení je vhodné oddělovat od doložených zjištění.
+- Business kontext je stejně důležitý jako technická správnost.
+- AI nenahrazuje kritické myšlení ani odpovědnost člověka.
+
+---
+
+# 📈 Další rozvoj
+
+Portfolio lze dále rozšiřovat především prostřednictvím praktických AI-assisted projektů.
+
+Navazující oblasti zahrnují například:
+
+- AI agentní workflow,
+- AI-assisted data quality,
+- automatizované review analytických výstupů,
+- AI + SQL / Python / Power BI workflow,
+- multimodální analytické scénáře,
+- další validaci promptů napříč různými modely,
+- praktické business use cases,
+- integraci AI do end-to-end analytických workflow.
