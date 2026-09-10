@@ -1,4 +1,4 @@
-# 🤖 AI Data Analytics Portfolio
+# 🤖 Data Analytics AI Portfolio
 
 Repozitář dokumentující moje studium umělé inteligence a její praktické využití v datové analytice, Business Intelligence, automatizaci, produktivitě a AI-assisted workflow.
 
@@ -29,7 +29,7 @@ Cílem je:
 # 📁 Struktura repozitáře
 
 ```text
-ai-data-analytics-portfolio/
+da-ai-portfolio/
 │
 ├── ai-case-studies/
 │   ├── ai-case-studies-basic/
@@ -541,18 +541,3 @@ Během studia a tvorby jednotlivých výstupů se opakovaně potvrdilo několik 
 - Iterativní práce zpravidla vede ke kvalitnějším a přesnějším výstupům.
 - AI je nejefektivnější jako asistent a podpora rozhodování, nikoli jako náhrada člověka.
 - Datový analytik musí umět AI nejen používat, ale také kontrolovat, validovat a transparentně dokumentovat její výstupy.
-
----
-
-# 📌 Poznámka autora
-
-Výstupy generativní AI v tomto repozitáři představují vzdělávací a demonstrační příklady.
-
-Neměly by být automaticky považovány za odborně ověřené závěry ani bez další kontroly používány jako podklad pro zdravotní, právní, finanční nebo jiná významná rozhodnutí.
-
-Za finální interpretaci, ověření a použití výstupů vždy odpovídá člověk.
-
----
-
-# Autor
-## **František Papst**
