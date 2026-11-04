@@ -342,12 +342,6 @@ SQL
 ## Career
 
 - Learning Project Generator
-- Dataset Recommendation Assistant
-- GitHub Portfolio Reviewer
-- Portfolio Project Reviewer
-- Resume Assistant
-- Cover Letter Assistant
-- Interview Assistant
 
 ## Excel
 
@@ -365,7 +359,6 @@ SQL
 - DAX Reviewer
 - Executive Dashboard Designer
 - Dashboard Reviewer
-- Performance Reviewer
 
 ## Reporting
 
