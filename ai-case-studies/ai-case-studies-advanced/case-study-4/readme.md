@@ -29,7 +29,7 @@ Agent klade důraz na:
 
 Kompletní specifikace popisující chování agenta, jeho workflow, odpovědnosti a principy práce.
 
-➡️ **[AI-Data-Analyst-Agent-Specification.md](AI-Data-Analyst-Agent-Specification.md)**
+➡️ **[AI Data Analyst Agent Specification](ai-data-analyst-agent-specification.md)**
 
 ---
 
@@ -39,7 +39,7 @@ Referenční analytický projekt vytvořený podle této specifikace.
 
 Analýza mapuje aktuální požadavky trhu práce na pozici **Data Analyst v České republice** a demonstruje kompletní analytický proces od definice business problému až po finální doporučení.
 
-➡️ **[Czech-Data-Analyst-Job-Market-Analysis.md](Czech-Data-Analyst-Job-Market-Analysis.md)**
+➡️ **[Czech Data Analyst Job Market Analysis](czech-data-analyst-job-market-analysis.md)**
 
 ---
 
@@ -88,33 +88,4 @@ Referenční analýza využívá znalosti z oblastí:
 - Business Intelligence
 - Data Analytics
 - Data Quality
-- Exploratory Data Analysis (EDA)
-
----
-
-# Účel
-
-Tento projekt neslouží jako hotový software ani jako automatizovaný AI nástroj.
-
-Jeho cílem je ukázat návrh profesionálního AI analytického workflow, které lze použít jako základ pro tvorbu vlastních AI agentů nebo analytických asistentů.
-
----
-
-# Stav repozitáře
-
-**Verze:** 1.0
-
-**Stav:** Final
-
-Součástí repozitáře jsou:
-
-- ✅ kompletní specifikace AI Data Analyst Agenta,
-- ✅ referenční analytická studie.
-
----
-
-# Autor
-
-**František Papst**
-
-Projekt vytvořen v rámci osobního vzdělávacího projektu **AI Learning Journey**.
+- Exploratory Data Analysis (EDA).
